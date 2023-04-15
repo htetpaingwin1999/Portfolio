@@ -11,37 +11,42 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Title 1',
+    title: 'HR Management System',
+    programming: 'Laravel',
     github: 'https://github.com',
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Title 1',
+    title: 'Student Management System',
+    programming: 'Java SE',
     github: 'https://github.com',
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Title 1',
+    title: 'Article Management System',
+    programming: 'PHP',
     github: 'https://github.com',
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Title 1',
+    title: 'Live Chatting',
+    programming: 'Vue Js',
     github: 'https://github.com',
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Title 1',
+    title: 'Pizza Order System',
+    programming: 'Laravel',
     github: 'https://github.com',
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Title 1',
+    title: 'Wishing Box',
     github: 'https://github.com',
   },
 ]
@@ -59,10 +64,9 @@ const Portfolio = () => {
               <div className="portfolio__item-image">
                 <img src={image} alt={title}/>
               </div>
-              <h3>This is a portfolio item title</h3>
+              <h3>{title}</h3>
               <div className="portfolio__item-cta">
                 <a href={github} className="btn btn-primary">Github</a>
-                <a href="https//github.com/htetpaingwin1999" className="btn btn-primary">Screenshot</a>
               </div>
             </article>
             )
