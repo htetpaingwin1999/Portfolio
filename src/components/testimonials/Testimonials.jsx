@@ -40,10 +40,10 @@ const data = [
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review From Clients</h5>
-      <h2>Testominals</h2>
+      {/* <h5>Review From Clients</h5> */}
+      {/* <h2>Testominals</h2> */}
 
-      <Swiper
+      {/* <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={40}
         slidesPerView={1}
@@ -70,7 +70,7 @@ const Testimonials = () => {
           )
         })
       }
-      </Swiper>
+      </Swiper> */}
     </section>
   )
 }
