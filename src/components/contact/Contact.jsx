@@ -12,6 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    
     emailjs.sendForm('service_lipgrau', 'template_j5umgzv', form.current, 'TZik3nfBTm1n151_j');
 
     e.target.reset();

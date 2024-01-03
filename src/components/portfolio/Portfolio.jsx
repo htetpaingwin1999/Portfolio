@@ -13,42 +13,37 @@ const data = [
     image: IMG1,
     title: 'HR Management System',
     programming: 'Laravel',
-    github: 'https://github.com',
+    github: 'https://github.com/htetpaingwin1999/Smart-HR-Management-System',
   },
   {
     id: 2,
     image: IMG2,
     title: 'Student Management System',
     programming: 'Java SE',
-    github: 'https://github.com',
+    github: 'https://github.com/htetpaingwin1999/Student-Management-System',
   },
   {
     id: 3,
     image: IMG3,
     title: 'Article Management System',
     programming: 'PHP',
-    github: 'https://github.com',
+    github: 'https://github.com/htetpaingwin1999/Article-Blog',
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Live Chatting',
-    programming: 'Vue Js',
-    github: 'https://github.com',
+    title: 'Ecommerce Admin View',
+    programming: 'Next Js',
+    github: 'https://github.com/htetpaingwin1999/Ecommerce-For-Admin-View',
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Pizza Order System',
-    programming: 'Laravel',
-    github: 'https://github.com',
+    title: 'Ecommerce Client View',
+    programming: 'Next Js',
+    github: 'https://github.com/htetpaingwin1999/Ecommerce-For-Customer-View',
   },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Wishing Box',
-    github: 'https://github.com',
-  },
+ 
 ]
 
 const Portfolio = () => {
